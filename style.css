@@ -1,0 +1,76 @@
+body {
+  font-size: 2ch;
+  font-family: Helvetica;
+  text-align: left;
+  background-color: #ebefff;
+  margin:0;
+}
+
+h1 {
+  padding: 0.5em;
+  padding-left: 30px;
+  text-align: left;
+  background: #1abc9c;
+  color: white;
+  font-size: 65px;
+  margin-top: 0px;
+  position: fixed;
+  overflow:auto;
+  width: 100%;
+  z-index:1;
+
+
+}
+
+
+div {
+  padding-top: 120px;
+  padding-left:12em;
+  padding-right:2em;
+}
+
+
+.more {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+p {
+  padding-left: 2em;
+  font-size: 20px;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 180px;
+  padding-left: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+
+
+#firstparagraph{
+  font-size:2em;
+}
